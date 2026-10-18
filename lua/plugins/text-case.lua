@@ -1,4 +1,4 @@
-  { -- untested AI Slop to use menus to select coercion scope/target
+return { -- use menus to select coercion scope/target
     "johmsalas/text-case.nvim",
     cmd = { "Subs", "S" },
     keys = {
@@ -13,7 +13,6 @@
     },
     config = function()
       local textcase = require("textcase")
-
       textcase.setup({
         default_keymappings_enabled = false,
         substitude_command_name = "S",
