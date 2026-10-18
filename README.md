@@ -1,0 +1,1 @@
+# nvim-text-case-config
