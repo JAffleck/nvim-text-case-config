@@ -38,7 +38,7 @@
           { label = "Title-Dash-Case", method = "to_title_dash_case" },
           { label = "UPPER CASE", method      = "to_upper_case" },
           { label = "lower case", method      = "to_lower_case" },
-          { label = "phrase case", method     = "to_phrase_case" },
+          { label = "Phrase case", method     = "to_phrase_case" },
         }
 
         -- If in visual mode, skip the scope question and go straight to coercion
